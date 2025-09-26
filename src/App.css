@@ -1,0 +1,187 @@
+body {
+    background-color: #15161B;
+    /* max-width: 1440px; */
+    font-family: oswald;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+
+}
+
+p {
+    color: white;
+}
+
+.beginning {
+    .beginningContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .firstBody {
+            display: flex;
+            margin-top: 200px;
+
+            .textDiv {
+                display: flex;
+                flex-direction: column;
+                margin-right: 150px;
+
+                .introduction {
+                    display: flex;
+                    align-items: center;
+                    font-size: 30px;
+                }
+
+                .introductionParagraph {
+                    display: flex;
+                    width: 300px;
+                    color: white;
+                    font-size: 68px;
+                    line-height: 1;
+                    width: 689px;
+                    height: 231;
+
+                }
+
+                .buttonIntroduction {
+
+                    a {
+                        color: white;
+                        align-items: center;
+                        background-color: #1A7993;
+                        text-decoration: none;
+                        font-size: 35px;
+                        font-weight: bold;
+                        text-align: center;
+                        padding: 23px 84px;
+                    }
+                }
+
+
+            }
+
+            .imgDiv {
+                margin-top: 40px;
+
+                .couple {
+                    display: flex;
+                }
+            }
+        }
+    }
+}
+
+.secondBody {
+    .middleText {
+        display: flex;
+        justify-content: center;
+        font-size: 45px;
+        border: 20px;
+        margin-top: 261px
+    }
+
+    .iconsDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+        margin-top: 128px;
+
+        .relation {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 304px;
+            height: 292px;
+            background-color: #2C2F37;
+        }
+
+        .wisdom {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 304px;
+            height: 292px;
+            background-color: #2C2F37;
+        }
+
+        .love {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 304px;
+            height: 292px;
+            background-color: #1A7993;
+
+        }
+
+        .friendship {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 304px;
+            height: 292px;
+            background-color: #2C2F37;
+        }
+
+        p {
+            display: flex;
+            font-size: 26px;
+        }
+    }
+
+}
+
+.banner {
+    .bannerContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .bannerGap {
+            display: flex;
+            margin-top: 375px;
+            background-color: #1A7993;
+            width: 1918px;
+            height: 643px;
+
+            .bannerText {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                h1 {
+                    color: white;
+                }
+
+                p {
+                    color: white;
+                }
+            }
+
+            .bannerButton {
+                a {
+                    align-items: center;
+                    background-color: white;
+                    color: black;
+                    text-decoration: none;
+                }
+            }
+
+            .bannerImg {
+                img {
+                    width: 326px;
+                    height: 443px;
+                }
+            }
+        }
+    }
+}
