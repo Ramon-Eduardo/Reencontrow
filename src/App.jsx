@@ -1,4 +1,4 @@
-import './App.scss'
+import './app.scss'
 import Container from './components/container'
 // autalização forçada para redeploy
 

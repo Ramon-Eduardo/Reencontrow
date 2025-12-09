@@ -27,7 +27,7 @@
 ## Estrutura de Pastas
 
 ```
-Reencontrow-Project/
+Reencontrow/
 ├── public/
 │   └── assets/
 │       └── images/
